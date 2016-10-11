@@ -39,7 +39,7 @@ a{
     min-height: 900px;
     width: 100%;
     background-attachment: fixed;
-    background-image: url(images/background-0.jpg);
+    background-image: url(../images/background-0.jpg);
     background-repeat: no-repeat;
     background-position: 0px -10px;
     background-size: cover;
@@ -71,7 +71,7 @@ a{
 	position: absolute;
 	min-height: 800px;
     width: 100%;
-    background-image: url(images/pattern-02.png);
+    background-image: url(../images/pattern-02.png);
     background-repeat: repeat;
     padding: 30px 15px 30px 15px;
     align-content: center;
@@ -87,7 +87,7 @@ a{
 {
 	overflow: hidden;
 	border-radius: 0;
-	background-image: url(images/pattern-04.png);
+	background-image: url(../images/pattern-04.png);
 	background-repeat: repeat;
 	box-shadow: 2px 2px 2px rgba(50,50,50,0.7);
 }

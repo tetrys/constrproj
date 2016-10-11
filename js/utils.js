@@ -161,7 +161,7 @@ function inflateContainer(container, requestURL){
 	console.log(snippet1);
 
 	var snObj = new SnippetObject();
-	snObj.loadJSON("json/snippets.json",false);
+	snObj.loadJSON("/json/snippets.json",false);
 	console.log(snObj);
 	// setIntoHtml(container,snippet1.text,false);
 }
