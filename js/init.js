@@ -14,11 +14,11 @@ $(function(){
 	globalValues.mainContainer = document.querySelector("#main-container");
     globalValues.footerContainer = document.querySelector("#footer-container");
 
-	loadIntoHtml(globalValues.navbarContainer,"../snippets/navbar.html",false,true);
-	loadIntoHtml(globalValues.mainContainer,"../snippets/cover.html",false,false);
-    loadIntoHtml(globalValues.footerContainer,"../snippets/footer.html",false,false);
+	loadIntoHtml(globalValues.navbarContainer,"snippets/navbar.html",false,true);
+	loadIntoHtml(globalValues.mainContainer,"snippets/cover.html",false,false);
+    loadIntoHtml(globalValues.footerContainer,"snippets/footer.html",false,false);
 
-	inflateContainer(globalValues.mainContainer,"../json/snippets.json");
+	inflateContainer(globalValues.mainContainer,"json/snippets.json");
 
 	menuCollapse();
 
