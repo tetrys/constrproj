@@ -154,14 +154,14 @@ function inflateContainer(container, requestURL){
 	// snippet1.loadData("../snippets/stripe.html",false);
 	// loadData("../json/snippets.json",snippet0,null,true,true);
 	// loadData("../snippets/stripe.html",snippet1,null,false,false);
-	snippet1.loadData("../snippets/stripe.html",false);
+	snippet1.loadData("snippets/stripe.html",false);
 	snippet1.insertProperty("elementL","Meaow");
 	snippet1.insertProperty("elementR","Purrrr");
 	snippet1.insertIntoHtml(container,false);
 	console.log(snippet1);
 
 	var snObj = new SnippetObject();
-	snObj.loadJSON("../json/snippets.json",false);
+	snObj.loadJSON("json/snippets.json",false);
 	console.log(snObj);
 	// setIntoHtml(container,snippet1.text,false);
 }

@@ -1,7 +1,7 @@
 {
-	"htmlPath" : "../snippets/",
-	"backgroundPath" : "../images/backgrounds/",
-	"imagePath" : "../images/fotos/",
+	"htmlPath" : "snippets/",
+	"backgroundPath" : "images/backgrounds/",
+	"imagePath" : "images/fotos/",
 	"numberOfSnippets" : 6,
 	"suffix" : ".html",
 
